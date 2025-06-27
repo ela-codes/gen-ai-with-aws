@@ -1,0 +1,27 @@
+traditional machine learning approaches
+
+- decision trees: flowchart like structures aiding in decision making based on data features. eg. is it sunny? is it rainy?
+
+- regression algorithms: useful for predicting nurmerical values by modeling relationships between variables.
+
+- clustering algorithms: group data into clusters based on similarity, aiding in data segmentation and categorization. what car models might use to group data such as pedestrians, cars, etc.
+
+
+deep learning
+
+artificial neural networks - heavily inspired by human brain, made of neural networks, they excel in processing huge amoutns of data and learning patterns from it.
+
+convolutional neural networks (CNN) - specialized for vision tasks, preserving spatial context of iamages.
+
+recurrent neural networks (RNN) - efficient for sequential data, aiding in tasks like predictive text. (eg. chatbots, predicting next works on your iphone as you're typing)
+
+
+generative deep learning: great for creating new content based on learned patterns from data.
+
+
+transformer architecture (encoder-decoder model): consists of layers of encoders and decoders. great for language translation and code generation tasks.
+
+
+tldr; 
+traditional - good for structure data. less computing resources.
+deep learning - good with large amounts of unstructured data and capturing intricate patterns.
