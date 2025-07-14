@@ -19,7 +19,7 @@ recurrent neural networks (RNN) - efficient for sequential data, aiding in tasks
 generative deep learning: great for creating new content based on learned patterns from data.
 
 
-transformer architecture (encoder-decoder model): consists of layers of encoders and decoders. great for language translation and code generation tasks.
+transformer architecture (encoder-decoder model): consists of layers of encoders and decoders. great for language translation and code generation tasks. (LLMs!!!)
 
 
 tldr; 

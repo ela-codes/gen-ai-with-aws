@@ -1,0 +1,23 @@
+large language models (LLMs) - advanced machine learning systems that understand and generate human language, mimicking human-like conversation and writing
+
+LLMs characteristics
+- extensive training data (books, websites, articles, other forms of language)
+- large because they consist of vast number of parameters (high capacity)
+- deep understanding - can comprehend context and nuances in language.
+- transformer architecture - for efficient test rpocessing and adaptable attention to different parts of the oinput
+- content generation - they are capable of generating contextually relevant text (essays, poetry, code, etc)
+
+natural language processing (NLP) - branch of AI that combines computational linguistrics with statistical, machine learning, and deep learning models.
+stages:
+1. tokenization. break down text into smaller subsections.
+2. parse - tokens analyzed for grammatical structure.
+3. semantics - algo try to understand meaning behind words. contextual analysis, synonyms and intentional meaning.
+4. contextual understanding - looking at sentences before/after the current one for better interpretation. also looks at implied meaning behind words.
+5. statistical inference - uses probabilities to prodict what word comes next.
+6. machine learning integration - system learns from new inputs and get better at predicting and understanding.
+
+
+Evolution of LLMs
+- rules-based (manually programmed. limited and inflexible)
+- statistical models (relies on probability. faster and more capable)
+- transformer-based (uses attention mechanisms. allows weighting of different parts of sentences.)
