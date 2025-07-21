@@ -21,3 +21,57 @@ Evolution of LLMs
 - rules-based (manually programmed. limited and inflexible)
 - statistical models (relies on probability. faster and more capable)
 - transformer-based (uses attention mechanisms. allows weighting of different parts of sentences.)
+
+
+Transformer-based models
+- are a type of LLM
+- good at handling long sequences of data and learning complex patterns
+- uses self-attention mechanisms that allows the model to weigh the importance of each word in a sentence in relation to every other word
+- steps include tokenization, embeddings, encoding/decoding, and self-attention mechanisms
+
+decoding strategies include:
+- greedy decoding (Picks the most likely next word at each step. Efficient but can lead to suboptimal sequences)
+- beam search (tracks a number of possible sequences (beam width) to find a better sequence of words. It balances between the best local and overall choices.)
+- top-k sampling (randomly picks next word from top K most likely candidates)
+- top-p sampling (randomly picks next word from a set whose cumulative probability exceeds a threshold, focusing on high-probability options.)
+
+Temperature - a setting that controls the randomness of token predictions. higher temp = more random and less confidence.
+
+
+Tokenization and embedding processes are handled by pre-built classes in NLP libraries.
+The transformer architecture applies self-attention and feed-forward neural networks to process embeddings.
+
+Visualization of embeddings or attention scores can provide insights into the model's processing.
+
+The final output from these layers is a set of vectors representing the input tokens in context.
+
+- Python libraries such as Hugging Face's transformers handle tokenization and embedding.
+- The transformer architecture's layered processing is managed by deep learning frameworks like PyTorch or TensorFlow.
+- Visualization of embeddings or attention scores can be achieved using Python's Matplotlib.
+
+
+Retrieval Augmented Generation (RAG)
+- A method in NLP where an LLM's generated process includes a step to retrieve external knowledge.
+- This is useful when you want to incorporate generated output with factual data from an external resource.
+
+
+Foundation Models
+- pre-trained on extensive, diverse datasets that can be fine tuned for a wide range of tasks
+
+Key characteristics include:
+Scale - These models are colossal in size, often encompassing billions of parameters, making them capable of learning from and processing enormous datasets.
+
+Generalization - Their design enables them to generalize knowledge across different languages, tasks, and domains. This broad scope allows them to capture a vast array of information and nuances.
+
+Adaptability - One of their standout features is adaptability. Foundation models can be fine-tuned with additional training to cater to specific tasks or requirements, enhancing their flexibility and utility in various applications.
+
+Capabilities - They boast a range of capabilities across different modalities, such as text and images. This versatility makes them suitable for diverse applications like language translation, question-answering, content summarization, image recognition, and more.
+
+Shared Architecture - A single foundation model can act as a base for developing numerous specialized models. This approach significantly reduces the resources and time required to develop new models for different tasks, as it eliminates the need to train a new model from the ground up for each specific application.
+
+Examples include:
+GPT-3, BERT, and T5
+
+
+Fine-Tuning LLMs
+- the process of takign a pre-trained model and training it with a specific dataset to adapt the model to particular tasks or domains

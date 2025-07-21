@@ -1,0 +1,7 @@
+Types of Prompts
+
+- Zero-Shot Prompting - Providing a language model with a task without any examples of how to perform it. The model relies on its pre-training to generate a response. Example: asking for a translation without providing previous examples.
+
+- Few-Shot Prompting - Giving the model a few examples of the task along with the prompt. These examples guide the model in understanding what's expected and demonstrate the desired output format.
+
+- Chain of Thought Prompting - A technique that involves guiding the model through a step-by-step reasoning process. It's useful for complex tasks that require logic or reasoning, like math problems or cause-and-effect questions.
